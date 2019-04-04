@@ -1,5 +1,5 @@
 FROM circleci/node:latest
 
-RUN apt-get install -y awscli
+RUN sudo apt-get install -y awscli
 
-RUN npm i -g serverless
+RUN sudo npm i -g serverless
